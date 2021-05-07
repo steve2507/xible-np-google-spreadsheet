@@ -1,5 +1,5 @@
 {
-  "name": "xible-np-google-sheets",
+  "name": "xible-np-google-spreadsheet",
   "version": "0.1.0",
   "description": "A XIBLE nodepack for working with Google Sheets.",
   "dependencies": {
