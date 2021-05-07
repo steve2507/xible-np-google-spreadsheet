@@ -1,0 +1,20 @@
+{
+  "name": "google.spreadsheet.sheet",
+  "type": "object",
+  "description": "References a worksheet within one or more given spreadsheets.",
+  "inputs": {
+    "spreadsheets": {
+      "type": "google.spreadsheet"
+    }
+  },
+  "outputs": {
+    "sheets": {
+      "type": "google.spreadsheet.sheet",
+      "description": "One worksheet per input spreadsheet."
+    },
+     "rows": {
+       "type": "google.spreadsheet.sheet.row",
+       "description": "All rows available in the worksheet(s)."
+     }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "xible-np-google-sheets",
+  "version": "0.1.0",
+  "description": "A XIBLE nodepack for working with Google Sheets.",
+  "dependencies": {
+    "google-spreadsheet": "^3.1.15"
+  },
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/xible-np-google-spreadsheet"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/xible-np-google-spreadsheet/issues"
+  },
+  "keywords": [
+    "xible",
+    "nodepack",
+    "google",
+    "sheets",
+    "spreadsheet"
+  ]
+}

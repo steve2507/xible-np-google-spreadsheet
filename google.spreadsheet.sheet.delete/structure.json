@@ -1,0 +1,18 @@
+{
+  "name": "google.spreadsheet.sheet.delete",
+  "type": "action",
+  "description": "Deletes one or more worksheets.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "sheets": {
+      "type": "google.spreadsheet.sheet"
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "google.spreadsheet.title.set",
+  "type": "action",
+  "description": "Change the title of a spreadsheet.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "spreadsheets": {
+      "type": "google.spreadsheet"
+    },
+    "titles": {
+      "type": "string",
+      "description": "If multiple titles are provided, they will be concatenated."
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    }
+  }
+}

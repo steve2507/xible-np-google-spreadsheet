@@ -1,0 +1,23 @@
+{
+  "name": "google.spreadsheet.sheet.add",
+  "type": "action",
+  "description": "Adds one or more worksheets to the given spreadsheet(s).",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "spreadsheets": {
+      "type": "google.spreadsheet",
+      "description": "One or more spreadsheets to add the worksheets to."
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "sheets": {
+      "type": "google.spreadsheet.sheet",
+      "description": "The newly created worksheets."
+    }
+  }
+}

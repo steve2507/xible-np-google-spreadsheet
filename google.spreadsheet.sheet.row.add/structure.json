@@ -1,0 +1,26 @@
+{
+  "name": "google.spreadsheet.sheet.row.add",
+  "type": "action",
+  "description": "Add one or more rows to a worksheet.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "sheets": {
+      "type": "google.spreadsheet.sheet"
+    },
+    "rows": {
+      "type": "google.spreadsheet.sheet.row",
+      "description": "The rows to add. This may be one or many plain object(s) with keys representing the header names and values representing the column value."
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    },
+    "rows": {
+      "type": "google.spreadsheet.sheet.row",
+      "description": "The added row(s)."
+    }
+  }
+}

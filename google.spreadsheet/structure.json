@@ -1,0 +1,11 @@
+{
+  "name": "google.spreadsheet",
+  "type": "object",
+  "description": "References a Google Sheet. Check https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication for authentication details.",
+  "outputs": {
+    "spreadsheet": {
+      "type": "google.spreadsheet"
+    }
+  },
+  "vault": ["clientEmail", "privateKey", "sheetId"]
+}

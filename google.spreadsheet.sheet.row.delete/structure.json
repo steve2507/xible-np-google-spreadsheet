@@ -1,0 +1,19 @@
+{
+  "name": "google.spreadsheet.sheet.row.delete",
+  "type": "action",
+  "description": "Delete one or more rows from a worksheet.",
+  "inputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "rows": {
+      "type": "google.spreadsheet.sheet.row",
+      "description": "The rows to delete."
+    }
+  },
+  "outputs": {
+    "done": {
+      "type": "trigger"
+    }
+  }
+}
